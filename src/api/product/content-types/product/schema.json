@@ -57,6 +57,18 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "mappedBy": "products"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "product"
+    },
+    "isTrending": {
+      "type": "boolean"
+    },
+    "isBestSelling": {
+      "type": "boolean"
     }
   }
 }
