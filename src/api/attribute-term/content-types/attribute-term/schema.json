@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attribute_terms",
+  "info": {
+    "singularName": "attribute-term",
+    "pluralName": "attribute-terms",
+    "displayName": "attributeTerm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}
